@@ -2,7 +2,6 @@
 import scalarAPIReference from '@scalar/fastify-api-reference'
 import fastify from "fastify"
 import fastifySwagger from "@fastify/swagger"
-import { fastifySwaggerUi } from '@fastify/swagger-ui'
 import { validatorCompiler, serializerCompiler, type ZodTypeProvider, jsonSchemaTransform } from 'fastify-type-provider-zod'
 import { createCourseRoute } from "./src/routes/create-course.ts"
 import { getCoursesRoute } from "./src/routes/get-courses.ts"
