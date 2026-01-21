@@ -3,7 +3,7 @@ POST http://localhost:3000/courses
 Content-Type: application/json
 
 {
-    "title": "Curso de IA para Devs"
+    "title": "Curs"
 }
 
 ##############
@@ -12,7 +12,7 @@ GET http://localhost:3000/courses
 
 ##############
 
-GET http://localhost:3000/courses/46eb7a23-3386-4112-95b0-2a174cb2c1ca
+GET http://localhost:3000/courses/58a72731-2052-4e7f-bff1-9d56e76d7076
 
 #############
 

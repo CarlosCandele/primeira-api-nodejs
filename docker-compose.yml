@@ -1,0 +1,13 @@
+#docker compose file for postgres 17 and node 18
+version: '3.9'
+services:
+  db:
+    image: postgres:17
+    restart: always
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: desafio
+    ports:
+      - '5435:5432'
+    
