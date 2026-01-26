@@ -7,7 +7,6 @@ import { createCourseRoute } from "./src/routes/create-course.ts"
 import { getCoursesRoute } from "./src/routes/get-courses.ts"
 import { getCourseByIdRoute } from "./src/routes/get-course-by-id.ts"
 
-
 const server = fastify({
    logger: {
     transport: {

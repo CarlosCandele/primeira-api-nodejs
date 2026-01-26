@@ -30,8 +30,6 @@ export const getCoursesRoute: FastifyPluginAsyncZod = async (server) => {
       }
     },async (request, reply) => {
 
-    
-    
     const { search, orderBy, page } = request.query
     
     const conditions: SQL[] = []
