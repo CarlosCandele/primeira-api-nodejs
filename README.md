@@ -369,4 +369,4 @@ Para dúvidas, sugestões ou reportar bugs:
 
 ---
 
-**Desenvolvido com ❤️ usando Node.js e Fastify**
+**Desenvolvido por Carlos Jorge usando Node.js e Fastify**
